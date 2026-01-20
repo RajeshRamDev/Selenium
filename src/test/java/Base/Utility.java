@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class Utility {
     WebDriver driver;
-    WebDriverWait wait;
+   public WebDriverWait wait;
 
     public WebDriver getDriver() {
         this.driver = new ChromeDriver();
@@ -44,4 +44,7 @@ public class Utility {
     {
         driver.quit();
     }
+
+
+
 }
