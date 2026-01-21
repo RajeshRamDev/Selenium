@@ -38,7 +38,7 @@ public class Alerts extends Utility {
         {
             System.out.println("Message is matched by Prompt Alert with message: "+success);
         } else {
-            System.out.println("Mismatch message, Prompt Alert is cancelled");
+            System.out.println("Mismatch message, User cancelled the prompt");
         }
         Thread.sleep(5000);
 
